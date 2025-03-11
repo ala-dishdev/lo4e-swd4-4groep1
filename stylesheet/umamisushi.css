@@ -1,1 +1,15 @@
-*{background-color: bisque;}
+*{
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+   /* voor mobiel */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+/* voor tablet */
+}
+
+@media screen and (min-width: 1280px) {
+/* voor computer of iets groter */
+}
