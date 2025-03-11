@@ -46,7 +46,7 @@
 
 <div class="form-container">
     <h2>Reserveren</h2>
-    <form action="" method="post">
+    <form action="Reserveren_Formulier.php" method="post">
         <label for="naam">Naam:</label>
         <input type="text" id="naam" name="naam" required>
 
