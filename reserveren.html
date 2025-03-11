@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    
     <meta name="description" content="">
-    <meta name="keywords" content="Umami Sushi, Umami, sushi, restaurant, ">
+    <meta name="keywords" content="Umami Sushi, Umami, sushi, restaurant">
     <meta name="author" content="Angela Bansie">
 
     <title>Home pagina - Umami Sushi</title>
@@ -14,10 +14,71 @@
     <link rel="stylesheet" href="stylesheet/umamisushi.css">
 </head>
 <body>
-    <header> 
-    </header>
+    <header></header>
 
-    <main></main>
+    <main>
+        <form action="reserveren_formulier.php" method="post">
+            <article class="formulier">
+                <h2>Reserveren</h2>
+
+                <article>
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" name="naam" required>
+                </article>
+
+                <article>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </article>
+
+                <article>
+                    <label for="keuze">Uw keuze:</label>
+                    <select id="keuze" name="keuze">
+                        <option>Lunch</option>
+                        <option>Diner</option>
+                    </select>
+                </article>
+
+                <article>
+                    <label for="dag">Dag:</label>
+                    <select id="dag" name="dag">
+                        <option>5 Feb</option>
+                        <option>6 Feb</option>
+                        <option>7 Feb</option>
+                    </select>
+                </article>
+
+                <article>
+                    <label for="tijd">Hoe laat:</label>
+                    <select id="tijd" name="tijd">
+                        <option>10:45</option>
+                        <option>12:00</option>
+                        <option>18:30</option>
+                    </select>
+                </article>
+
+                <article>
+                    <label for="personen">Personen:</label>
+                    <select id="personen" name="personen">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </article>
+
+                <article>
+                    <label for="dieet">Dieetwensen:</label>
+                    <input type="text" id="dieet" name="dieet">
+                </article>
+
+                <article>
+                    <button type="submit">Versturen</button>
+                </article>
+            </article>
+        </form>
+    </main>
 
     <footer></footer>
 </body>
