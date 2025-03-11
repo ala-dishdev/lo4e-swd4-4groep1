@@ -19,7 +19,7 @@
     <article>
         <header>
      
-            <img class="logo" src="plaatjes\Logo imami sushi test.png" alt="Umami Sushi Logo"> 
+            <img class="logo" src="plaatjes\logo_umami_sushi_1.png" alt="Umami Sushi Logo"> 
         </header>
     </article>
 </body>

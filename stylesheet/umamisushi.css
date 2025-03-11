@@ -110,6 +110,7 @@ article header {
 
 
 header .logo {
-    height: 120px; 
-    object-fit: contain; 
+    height: 120px;
+    object-fit: contain;
+    background-color: transparent; 
 }
