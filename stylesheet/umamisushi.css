@@ -16,8 +16,11 @@
 }
 
 /* reserveren formulier */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; 
     background-color: #f4f4f4;
     text-align: center;
 }
@@ -38,6 +41,7 @@ h2 {
     margin-bottom: 20px;
     background: none; 
     color: white; 
+    font-family: 'Oswald', sans-serif; 
 }
 
 article {
@@ -52,6 +56,7 @@ label {
     flex: 1;
     background: none;
     color: white; 
+    font-family: 'Lexend Deca', sans-serif; 
 }
 
 input, select {
@@ -63,6 +68,7 @@ input, select {
     background-color: white; 
     color: black;
     outline: none;
+    font-family: 'Roboto Condensed', sans-serif; 
 }
 
 select {
@@ -84,11 +90,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Staatliches', sans-serif; /
 }
 
 button:hover {
     background-color: #a04000;
 }
+
 
 /* header */
 
