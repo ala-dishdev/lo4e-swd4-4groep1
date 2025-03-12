@@ -5,45 +5,60 @@
 @media screen and (max-width: 768px) {
    /* voor mobiel */
     .banner {
-        border: 2px solid #a04000;
+        display: flex;
+        justify-content: center;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 20rem;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
     }
 
     .banner > img {
-        height: 20px;
+        height: 8rem;
+        width: 20rem;
+        border-radius: 20px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 /* voor tablet */
     .banner {
-        border: 2px solid #a04000;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
     }
 
     .banner > img {
-        height: 20px;
+        height: 16rem;
     }
 }
 
 @media screen and (min-width: 1280px) {
 /* voor computer of iets groter */
     .banner {
-        border: 2px solid #a04000;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 70rem;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
     }
 
     .banner > img {
         height: 16rem;
+        border-radius: 20px
     }
 }
 
