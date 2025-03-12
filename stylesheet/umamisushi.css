@@ -4,15 +4,47 @@
 
 @media screen and (max-width: 768px) {
    /* voor mobiel */
+    .banner {
+        border: 2px solid #a04000;
+    }
 
+    .intro {
+        color: white;
+    }
+
+    .banner > img {
+        height: 20px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 /* voor tablet */
+    .banner {
+        border: 2px solid #a04000;
+    }
+
+    .intro {
+        color: white;
+    }
+
+    .banner > img {
+        height: 20px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
 /* voor computer of iets groter */
+    .banner {
+        border: 2px solid #a04000;
+    }
+
+    .intro {
+        color: white;
+    }
+
+    .banner > img {
+        height: 20px;
+    }
 }
 
 /* reserveren formulier */
