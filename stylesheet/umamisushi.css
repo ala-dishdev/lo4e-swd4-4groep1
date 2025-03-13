@@ -136,7 +136,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 
@@ -155,3 +155,106 @@ header .logo {
     object-fit: contain;
     background-color: transparent; 
 }
+
+/* vacatures */
+
+
+/* Specifieke styling voor vacatures */
+.vacature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolommen */
+    gap: 80px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.vacature-item {
+    background-color: #d37d26;
+    border: 3px solid #d37d26;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(245, 173, 117, 0.4);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vacature-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.vacature-item h2, .vacature-item h3, .vacature-item p, .vacature-item ul {
+    background-color: transparent;
+}
+
+.vacature-item h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.vacature-item h3 {
+    color: #ffd700;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.vacature-item p {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+.vacature-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: transparent;
+}
+
+.vacature-item ul li {
+    text-align: left;
+    margin-bottom: 8px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Voor mobiele weergave */
+@media (max-width: 768px) {
+    .vacature-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .vacature-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .vacature-container {
+        grid-template-columns: 1fr; 
+        gap: 30px; 
+    }
+
+    article {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+}
+
+
