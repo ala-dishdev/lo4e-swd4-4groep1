@@ -55,6 +55,22 @@
         width: 24rem;
         border-radius: 20px;
     }
+
+    .scrollbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .scrollbar > a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
@@ -99,6 +115,23 @@
         width: 60rem;
         border-radius: 20px;
     }
+
+    .scrollbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .scrollbar > a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -151,6 +184,29 @@
         width: 60rem;
         border-radius: 20px;
     }
+
+    .topic {
+        color: #f4f4f4;
+        margin-top: -15px;
+    }
+
+    .scrollbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #F8733D;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .scrollbar > a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #F8733D;
+        font-weight: bold;
+    }
+
 }
 
 /* reserveren formulier */
