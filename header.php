@@ -18,7 +18,6 @@
 
     <article>
         <header>
-     
             <img class="logo" src="plaatjes\logo_umami_sushi_1.png" alt="Umami Sushi Logo"> 
         </header>
     </article>
