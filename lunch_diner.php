@@ -33,7 +33,7 @@
             <a href="#dranken">Dranken</a>
         </nav>
         
-        <!-- Secties -->
+        
         <section id="voorgerechten">
         <h1 class="gerecht_titel">Voorgerechten</h1>
             <article class="gerecht">
@@ -151,7 +151,7 @@
             </article>
         </section>
 
-        <section id="bijgerechten" >
+        <section id="bijgerechten">
         <h1 class="gerecht_titel">Bijgerechten</h1>
             <article class="gerecht">
                 <img src="plaatjes/sushi4.jpg" alt="Witte rijst">
@@ -194,6 +194,7 @@
                 <h1 class="gerecht_naam">Mineraal Water<br>€2,50</h1>
             </article>
         </section>
+        
 
     </main>
 
