@@ -56,6 +56,15 @@
         border-radius: 20px;
     }
 
+    .Lunchdiner_main{
+        display: flex;
+        flex-direction: column;
+    }
+    .topic{
+        color: white;
+        margin-top: -15px;
+    }
+
     .scrollbar {
         position: sticky;
         top: 0;
@@ -63,12 +72,39 @@
         width: 100%;
         padding: 10px 0;
         text-align: center;
+        color: #F8733D;
+        background-color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: white;
+        color: black;
+        background-color: #F8733D;
         font-weight: bold;
+    }
+
+    .gerecht{
+        border: 2px solid #e67e22;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gerecht > img {
+        height:8rem;
+        border-radius: 20px;
+    }
+
+    .gerecht_naam {
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
+    }
+
+    .gerecht_titel{
+        color: white;
     }
 
 }
@@ -121,15 +157,41 @@
         top: 0;
         left: 0;
         width: 100%;
-        background: white;
+        background: #F8733D;
         padding: 10px 0;
         text-align: center;
+        color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
         color: black;
+        background-color: #F8733D;
         font-weight: bold;
+    }
+
+    .gerecht{
+        border: 2px solid #e67e22;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gerecht > img {
+        height:8rem;
+        border-radius: 20px;
+    }
+
+    .gerecht_naam {
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
+    }
+
+    .gerecht_titel{
+        color: white;
     }
 
 }
@@ -198,15 +260,48 @@
         background: #F8733D;
         padding: 10px 0;
         text-align: center;
+        color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: white;
+        color: black;
         background-color: #F8733D;
         font-weight: bold;
     }
 
+    .gerecht{
+        padding: 10px;
+        border: 2px solid #f1921D;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gerecht > img {
+        height: 10rem;
+        border-radius: 20px;
+    }
+
+    .gerecht_naam {
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
+    }
+
+    .gerecht_titel{
+        color: white;
+        display: flex;
+        justify-content: flex-start
+    }
+
+    /* begin van de sections bij de lunch&diner pagina naast elkaar te zetten */
+    /* #voorgerechten{
+        display: flex;
+        flex-direction: row;
+    } */
 }
 
 /* reserveren formulier */
