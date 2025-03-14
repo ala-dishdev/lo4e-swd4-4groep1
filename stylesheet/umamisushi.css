@@ -49,13 +49,49 @@
         width: 100%;
         padding: 10px 0;
         text-align: center;
+        background-color: #F8733D;
     }
+
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: white;
+        background-color: #F8733D;
+        color: black;
         font-weight: bold;
     }
+
+    .Lunchdiner_main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gerecht {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #f1921D;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 100%;
+    }
+
+    .gerecht > img {
+        height: 10rem;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .gerecht_titel {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+
+    .gerecht_naam{
+        background-color: #f1921D;
+        color: black
+    }
+
 
 }
 
@@ -90,7 +126,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        background: white;
+        background: #F8733D;
         padding: 10px 0;
         text-align: center;
     }
@@ -98,8 +134,37 @@
         margin: 0 15px;
         text-decoration: none;
         color: black;
+        background-color: #F8733D;
         font-weight: bold;
     }
+
+    .gerecht {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #f1921D;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 100%;
+    }
+
+    .gerecht > img {
+        height: 10rem;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .gerecht_titel {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+
+    .gerecht_naam{
+        background-color: #f1921D;
+        color: black
+    }
+
 
 }
 
@@ -163,6 +228,32 @@
         color: white;
         background-color: #F8733D;
         font-weight: bold;
+    }
+
+    .gerecht {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #f1921D;
+        border-radius: 20px;
+        background-color: #f1921D;
+        width: 30%;
+    }
+
+    .gerecht > img {
+        height: 10rem;
+        border-radius: 20px;
+    }
+
+    .gerecht_titel {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+
+    .gerecht_naam{
+        background-color: #f1921D;
+        color: black
     }
 
 }
