@@ -173,81 +173,107 @@
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background-color: #f4f4f4;
+    background-color: #000000;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .formulier {
     background-color: #e67e22;
     color: white; 
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
+    padding: 25px;
+    border-radius: 12px;
     width: 450px; 
     text-align: left;
+    margin: 30px auto; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 20px;
-    background: none; 
     color: white; 
     font-family: 'Oswald', sans-serif; 
 }
 
 article {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 15px;
 }
 
 label {
     font-weight: bold;
-    flex: 1;
-    background: none;
+    margin-bottom: 5px;
     color: white; 
     font-family: 'Lexend Deca', sans-serif; 
 }
 
 input, select {
-    flex: 2;
-    padding: 8px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     background-color: white; 
     color: black;
     outline: none;
-    font-family: 'Roboto Condensed', sans-serif; 
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
 }
 
 select {
+    background-color: #ffffff; 
+    color: #000000; 
     cursor: pointer;
-    appearance: none;
 }
 
 select option {
-    background-color: white;
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+select:focus {
+    background-color: #ffffff;
     color: #000000;
 }
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #d35400;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
-    font-family: 'Staatliches', sans-serif; /
+    font-family: 'Staatliches', sans-serif;
+    transition: background 0.3s, transform 0.1s;
 }
 
 button:hover {
     background-color: #a04000;
+    transform: scale(1.02);
 }
+
+@media (max-width: 500px) {
+    .formulier {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
 
 
 /* header */
@@ -278,11 +304,9 @@ header .logo {
 
 /* vacatures */
 
-
-/* Specifieke styling voor vacatures */
 .vacature-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 kolommen */
+    grid-template-columns: repeat(2, 1fr);
     gap: 80px;
     justify-content: center;
     padding: 20px;
@@ -350,7 +374,6 @@ header .logo {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Voor mobiele weergave */
 @media (max-width: 768px) {
     .vacature-grid {
         grid-template-columns: 1fr;
