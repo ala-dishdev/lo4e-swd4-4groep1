@@ -5,29 +5,15 @@
 @media screen and (max-width: 768px) {
    /* voor mobiel */
     .banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid #f1921D;
-        background-color: #f1921D;
-        border-radius: 20px;
-        width: 24rem;
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
-        margin-top: -15px;
+        border: 2px solid #a04000;
     }
 
     .intro {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
+        color: white;
     }
 
     .banner > img {
-        height: 12rem;
-        width: 24rem;
-        border-radius: 20px;
+        height: 20px;
     }
 
     .home_tekst{
@@ -56,15 +42,6 @@
         border-radius: 20px;
     }
 
-    .Lunchdiner_main{
-        display: flex;
-        flex-direction: column;
-    }
-    .topic{
-        color: white;
-        margin-top: -15px;
-    }
-
     .scrollbar {
         position: sticky;
         top: 0;
@@ -72,39 +49,12 @@
         width: 100%;
         padding: 10px 0;
         text-align: center;
-        color: #F8733D;
-        background-color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: black;
-        background-color: #F8733D;
-        font-weight: bold;
-    }
-
-    .gerecht{
-        border: 2px solid #e67e22;
-        border-radius: 20px;
-        background-color: #f1921D;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .gerecht > img {
-        height:8rem;
-        border-radius: 20px;
-    }
-
-    .gerecht_naam {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
-    }
-
-    .gerecht_titel{
         color: white;
+        font-weight: bold;
     }
 
 }
@@ -112,32 +62,15 @@
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 /* voor tablet */
     .banner {
-        border: 2px solid #f1921D;
-        background-color: #f1921D;
-        margin-top: -15px;
+        border: 2px solid #a04000;
     }
 
     .intro {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
+        color: white;
     }
 
     .banner > img {
-        height: 16rem;
-        width: 60rem;
-        border-radius: 20px
-    }
- 
-    .home_tekst{
-        border: 2px solid #f1921D;
-        background-color: #f1921D;
-        border-radius: 20px;
-        width: 95rem;
-        display: flex;
-        flex-direction: row; 
-        align-items: center; 
-        margin-bottom: 0px;
+        height: 20px;
     }
 
     .home_paragraaf{
@@ -157,41 +90,15 @@
         top: 0;
         left: 0;
         width: 100%;
-        background: #F8733D;
+        background: white;
         padding: 10px 0;
         text-align: center;
-        color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
         color: black;
-        background-color: #F8733D;
         font-weight: bold;
-    }
-
-    .gerecht{
-        border: 2px solid #e67e22;
-        border-radius: 20px;
-        background-color: #f1921D;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .gerecht > img {
-        height:8rem;
-        border-radius: 20px;
-    }
-
-    .gerecht_naam {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
-    }
-
-    .gerecht_titel{
-        color: white;
     }
 
 }
@@ -199,22 +106,11 @@
 @media screen and (min-width: 1280px) {
 /* voor computer of iets groter */
     .banner {
-        border: 2px solid #f1921D;
-        background-color: #f1921D;
-        border-radius: 20px;
-        width: 94rem;
-        display: flex;
-        flex-direction: row; 
-        align-items: center; 
-        margin-top: -15px;
-        margin-bottom: 20px;
+        border: 2px solid #a04000;
     }
 
     .intro {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
-        justify-content: flex-end;
+        color: white;
     }
 
     .banner > img {
@@ -260,48 +156,15 @@
         background: #F8733D;
         padding: 10px 0;
         text-align: center;
-        color: #F8733D;
     }
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: black;
+        color: white;
         background-color: #F8733D;
         font-weight: bold;
     }
 
-    .gerecht{
-        padding: 10px;
-        border: 2px solid #f1921D;
-        border-radius: 20px;
-        background-color: #f1921D;
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .gerecht > img {
-        height: 10rem;
-        border-radius: 20px;
-    }
-
-    .gerecht_naam {
-        color: black;
-        background-color: #f1921D;
-        font-size: large;
-    }
-
-    .gerecht_titel{
-        color: white;
-        display: flex;
-        justify-content: flex-start
-    }
-
-    /* begin van de sections bij de lunch&diner pagina naast elkaar te zetten */
-    /* #voorgerechten{
-        display: flex;
-        flex-direction: row;
-    } */
 }
 
 /* reserveren formulier */
@@ -310,7 +173,7 @@
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background-color: black;
+    background-color: #f4f4f4;
     text-align: center;
 }
 
@@ -393,7 +256,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 
@@ -413,9 +276,105 @@ header .logo {
     background-color: transparent; 
 }
 
-/* footer */
+/* vacatures */
 
-.footer{
-    height: 10vh;
-    background-color: #F8733D;
+
+/* Specifieke styling voor vacatures */
+.vacature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolommen */
+    gap: 80px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
 }
+
+.vacature-item {
+    background-color: #d37d26;
+    border: 3px solid #d37d26;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(245, 173, 117, 0.4);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vacature-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.vacature-item h2, .vacature-item h3, .vacature-item p, .vacature-item ul {
+    background-color: transparent;
+}
+
+.vacature-item h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.vacature-item h3 {
+    color: #ffd700;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.vacature-item p {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+.vacature-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: transparent;
+}
+
+.vacature-item ul li {
+    text-align: left;
+    margin-bottom: 8px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Voor mobiele weergave */
+@media (max-width: 768px) {
+    .vacature-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .vacature-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .vacature-container {
+        grid-template-columns: 1fr; 
+        gap: 30px; 
+    }
+
+    article {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+}
+
+
