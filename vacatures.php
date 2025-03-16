@@ -1,3 +1,5 @@
+<?php include 'header.php'; ?> 
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -10,15 +12,14 @@
     <meta name="author" content="Angela Bansie">
 
     <title>Vacatures - Umami Sushi</title>
-    <link rel="icon" href="plaatjes/logo_umami_wit.png" type="image/x-icon">
+    <link rel="icon" href="plaatjes\logo_umami_wit.png" type="image/x-icon">
     <link rel="stylesheet" href="stylesheet/umamisushi.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@200..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Vacatures</h1>
     <section class="vacature-grid">
@@ -75,5 +76,7 @@
             </ul>
         </article>
     </section>
+
+<?php include 'footer.php'; ?>
 </body>
 </html>
