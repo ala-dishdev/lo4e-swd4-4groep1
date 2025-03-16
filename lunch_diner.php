@@ -33,19 +33,19 @@
             <a href="#dranken">Dranken</a>
         </nav>
         
-        
+
         <section id="voorgerechten">
         <h1 class="gerecht_titel">Voorgerechten</h1>
             <article class="gerecht">
-                    <img src="plaatjes/sushi4.jpg" alt="Miso soep">
+                    <img src="plaatjes/misosoep.jpg" alt="Miso soep">
                     <h1 class="gerecht_naam">Miso Soep<br>Tradionele Japanse soep met tofu, zeewier en lente-ui<br>€4,50 </h1>
             </article>
             <article class="gerecht">
-                    <img src="plaatjes/sushi4.jpg" alt="Edamame">
+                    <img src="plaatjes/edamame.jpeg" alt="Edamame">
                     <h1 class="gerecht_naam">Edamame<br>Gestoomde sojabonen met zeezout<br>€5,00</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Wakame salade">
+                <img src="plaatjes/wakamesalade.jpg" alt="Wakame salade">
                 <h1 class="gerecht_naam">Wakame Salade<br>Zeewier salade met sesam dressing<br> €6,50</h1>
                 <p>
             </article>
@@ -54,23 +54,23 @@
         <section id="nigirisushi">
         <h1 class="gerecht_titel">Nigiri Sushi (2 stuks)</h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="sake">
+                <img src="plaatjes/nigirizalm.jpg" alt="sake">
                 <h1 class="gerecht_naam">Sake (Zalm)<br> €4,50  </h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="tonijn">
+                <img src="plaatjes/nigiritonijn.jpg" alt="tonijn">
                 <h1 class="gerecht_naam">Maguro (Tonijn)<br>€5,00 </h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="garnaal">
+                <img src="plaatjes/nigirigarnaal.jpg" alt="garnaal">
                 <h1 class="gerecht_naam">Ebi (Garnaal)<br>€4,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="paling">
+                <img src="plaatjes/nigiripaling.avif" alt="paling">
                 <h1 class="gerecht_naam">Unagi (Paling)<br>€5,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="ei">
+                <img src="plaatjes/nigiritamago.jpg" alt="ei">
                 <h1 class="gerecht_naam">Tamago (Ei)<br>€4,00</h1>
             </article>
         </section>
