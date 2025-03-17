@@ -5,15 +5,28 @@
 @media screen and (max-width: 768px) {
    /* voor mobiel */
     .banner {
-        border: 2px solid #a04000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 24rem;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 0px;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
     }
 
     .banner > img {
-        height: 20px;
+        height: 10rem;
+        border-radius: 20px;
     }
 
     .home_tekst{
@@ -92,21 +105,37 @@
         color: black
     }
 
+    .footer{
+        height: 10vh;
+        background-color: #F8733D;
+        width: 116%;
+    }
+    
+
 
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 /* voor tablet */
     .banner {
-        border: 2px solid #a04000;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 94rem;
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        margin-bottom: 20px;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
     }
 
     .banner > img {
-        height: 20px;
+        height: 10rem;
     }
 
     .home_paragraaf{
@@ -165,17 +194,33 @@
         color: black
     }
 
+    .footer{
+        height: 10vh;
+        background-color: #F8733D;
+        width: 100%;
+    }
+
 
 }
 
 @media screen and (min-width: 1280px) {
 /* voor computer of iets groter */
     .banner {
-        border: 2px solid #a04000;
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 94rem;
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        margin-bottom: 20px;
     }
 
     .intro {
-        color: white;
+        color: black;
+        background-color: #f1921D;
+        font-size: large;
+        padding: 2%;
     }
 
     .banner > img {
@@ -254,6 +299,11 @@
     .gerecht_naam{
         background-color: #f1921D;
         color: black
+    }
+
+    .footer{
+        height: 10vh;
+        background-color: #F8733D;
     }
 
 }
