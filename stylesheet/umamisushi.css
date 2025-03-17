@@ -306,6 +306,21 @@
         background-color: #F8733D;
     }
 
+    .openingstijden_map{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 50rem;
+        border: 2px solid #fc634d;
+        background-color: #fc634d;
+    }
+
+    .openingstijden_intro{
+        display: flex;
+        justify-content: center;
+        color: black;
+        background-color: #fc634d;
+    }
 }
 
 /* reserveren formulier */
