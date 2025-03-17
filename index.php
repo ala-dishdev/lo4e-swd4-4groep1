@@ -10,7 +10,7 @@
     <meta name="author" content="Spuranthi Srirangam">
 
     <title>Home pagina - Umami Sushi</title>
-    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="icon" href="plaatjes/logo_umami_sushi_1.png" type="image/x-icon">
     <link rel="stylesheet" href="stylesheet/umamisushi.css">
 </head>
 <body>
