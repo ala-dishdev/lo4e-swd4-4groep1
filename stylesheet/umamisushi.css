@@ -111,7 +111,102 @@
         width: 116%;
     }
     
+    .topic {
+        color: #f4f4f4;
+        margin-top: -15px;
+    }
 
+    .openingstijden_map {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 20rem;
+        margin: 3rem auto; 
+        border: 2px solid #fc634d;
+        background-color: #fc634d;
+        border-radius: 20px;
+    }
+    
+
+    .openingstijden_intro{
+        display: flex;
+        justify-content: center;
+        color: black;
+        background-color: #fc634d;
+    }
+    
+    .maps{
+        width: 20rem;
+        height: 15rem;
+    }
+
+    section {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .figure_1 {
+        background-color: #f89c32;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_2 {
+        background-color: #F8733D;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_3 {
+        background-color: #fc634d;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    figure img {
+        width: 60%;
+        background-color: #F8733D;
+    }
+
+    p {
+        flex-grow: 1;
+        background-color: #fc634d;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yellow { background-color: #f89c32; }
+    .red { background-color: #fc634d; }
 
 }
 
@@ -200,6 +295,102 @@
         width: 100%;
     }
 
+    .topic {
+        color: #f4f4f4;
+        margin-top: -15px;
+    }
+
+    .openingstijden_map {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 40rem;
+        margin: 3rem auto; 
+        border: 2px solid #fc634d;
+        background-color: #fc634d;
+        border-radius: 20px;
+    }
+    
+
+    .openingstijden_intro{
+        display: flex;
+        justify-content: center;
+        color: black;
+        background-color: #fc634d;
+    }
+
+    .maps{
+        width: 40rem;
+        height: 25rem;
+    }
+
+    section {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .figure_1 {
+        background-color: #f89c32;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_2 {
+        background-color: #F8733D;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_3 {
+        background-color: #fc634d;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    figure img {
+        width: 60%;
+        background-color: #F8733D;
+    }
+
+    p {
+        flex-grow: 1;
+        background-color: #fc634d;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yellow { background-color: #f89c32; }
+    .red { background-color: #fc634d; }
 
 }
 
@@ -313,14 +504,17 @@
         background-color: #F8733D;
     }
 
-    .openingstijden_map{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        width: 50rem;
+    .openingstijden_map {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 60rem;
+        margin: 3rem auto; 
         border: 2px solid #fc634d;
         background-color: #fc634d;
+        border-radius: 20px;
     }
+    
 
     .openingstijden_intro{
         display: flex;
@@ -328,6 +522,94 @@
         color: black;
         background-color: #fc634d;
     }
+
+    .maps{
+        width: 60rem;
+        height: 20rem;
+    }
+
+    section {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .figure_1 {
+        background-color: #f89c32;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_2 {
+        background-color: #F8733D;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .figure_3 {
+        background-color: #fc634d;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    figure img {
+        width: 60%;
+        background-color: #F8733D;
+    }
+
+    p {
+        flex-grow: 1;
+        background-color: #fc634d;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yellow { background-color: #f89c32; }
+    .red { background-color: #fc634d; }
+    .orange { background-color: #F8733D; }
+
+            /* Responsiviteit */
+            /* @media (max-width: 480px) {
+                li {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+    
+                p {
+                    width: 100%;
+                    text-align: left;
+                    padding: 10px;
+                }
+            }    */
 
 }
 
