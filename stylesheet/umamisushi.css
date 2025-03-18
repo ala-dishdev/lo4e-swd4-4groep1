@@ -270,7 +270,7 @@
     .scrollbar > a {
         margin: 0 15px;
         text-decoration: none;
-        color: white;
+        color: black;
         background-color: #F8733D;
         font-weight: bold;
     }
@@ -285,7 +285,7 @@
     }
 
     .gerecht > img {
-        height: 10rem;
+        height: 13rem;
         border-radius: 20px;
     }
 
@@ -300,6 +300,13 @@
         background-color: #f1921D;
         color: black
     }
+
+    /* #voorgerechten{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr)); 
+        padding: 20px;
+    } */
 
     .footer{
         height: 10vh;
@@ -321,6 +328,7 @@
         color: black;
         background-color: #fc634d;
     }
+
 }
 
 /* reserveren formulier */

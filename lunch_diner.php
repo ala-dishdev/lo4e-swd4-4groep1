@@ -78,19 +78,19 @@
         <section id="makirolls">
         <h1 class="gerecht_titel">Maki Rolls (6 stuks) </h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="california rolls">
+                <img src="plaatjes/makicalifornia.jpg" alt="california rolls">
                 <h1 class="gerecht_naam">California Roll<br>Krabs ck, avocado, komkommer en masago <br> €8,50 </h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="spicy rolls">
+                <img src="plaatjes/makispicy.avif" alt="spicy rolls">
                 <h1 class="gerecht_naam">Spicy Tuna Roll<br>Tonijn, spicy mayonaise en lente-ui<br>€9,00</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Salmon Avocado Roll">
+                <img src="plaatjes/makisalmonavocado.webp" alt="Salmon Avocado Roll">
                 <h1 class="gerecht_naam">Salmon Avocado Roll<br>Verse zalm en avocado<br>€8,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Cucumber Roll">
+                <img src="plaatjes/makikomkommer.jpg" alt="Cucumber Roll">
                 <h1 class="gerecht_naam">Cucumber Roll<br>Komkommer en sesam (vegetarisch)<br>€6,50</h1>
             </article>
         </section>
@@ -98,19 +98,19 @@
         <section id="specialrolls" >
         <h1 class="gerecht_titel">Special Rolls (8 stuks) </h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Dragon Roll">
+                <img src="plaatjes/specialdragonroll.webp" alt="Dragon Roll">
                 <h1 class="gerecht_naam">Dragon Roll<br>Tempura garnaal, avocado, komkommer, unagi en unagi saus<br>€15,50 </h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Rainbow Roll">
+                <img src="plaatjes/specialrainbowroll.avif" alt="Rainbow Roll">
                 <h1 class="gerecht_naam">Rainbow Roll<br>California roll bedekt met diverse soorten vis<br>€16,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Crispy Chicken Roll">
+                <img src="plaatjes/specialcrispychicken.webp" alt="Crispy Chicken Roll">
                 <h1 class="gerecht_naam">Crispy Chicken Roll<br>Krokante kip, avocado, komkommer, teriyaki saus<br>€14,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Tempura Roll*">
+                <img src="plaatjes/specialtempuraroll.jpg" alt="Tempura Roll*">
                 <h1 class="gerecht_naam">Tempura Roll<br>Gefrituurde garnaal, avocado, komkommer, spicy mayonaise<br>€15,50</h1>
             </article>
         </section>
@@ -118,15 +118,15 @@
         <section id="sashimi" >
         <h1 class="gerecht_titel">Sashimi (5 stuks)</h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Sake (Zalm)">
+                <img src="plaatjes/zalmsashimi.jpg" alt="Sake (Zalm)">
                 <h1 class="gerecht_naam">Sake (Zalm)<br>€9,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Maguro (Tonijn)">
+                <img src="plaatjes/magurosashimi.avif" alt="Maguro (Tonijn)">
                 <h1 class="gerecht_naam">Maguro (Tonijn)<br>€10,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Hamachi (Yellowtail)">
+                <img src="plaatjes/hachimisashimi.jpg" alt="Hamachi (Yellowtail)">
                 <h1 class="gerecht_naam">Hamachi (Yellowtail)<br> €11,50</h1>
             </article>
         </section>
@@ -134,19 +134,19 @@
         <section id="combinatiemenus">
         <h1 class="gerecht_titel">Combinatie Menu's</h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Sushi Set A">
+                <img src="plaatjes/sushisetA.jpg" alt="Sushi Set A">
                 <h1 class="gerecht_naam">Sushi Set A<br>4 nigiri, 6 maki, miso soep<br>€22,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Sushi Set B">
+                <img src="plaatjes/sushisetB.jpg" alt="Sushi Set B">
                 <h1 class="gerecht_naam">Sushi Set B<br>6 nigiri, 8 special roll, miso soep, edamame<br>32,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Sashimi Set">
+                <img src="plaatjes/sushisetC_1.jpg" alt="Sashimi Set">
                 <h1 class="gerecht_naam">Sashimi Set<br>15 stuks diverse sashimi met rijst<br>€25,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Vegetarisch Set">
+                <img src="plaatjes/sushisetD.jpg" alt="Vegetarisch Set">
                 <h1 class="gerecht_naam">Vegetarisch Set<br>4 vegetarische nigiri, 6 cucumber roll, 6 avocado roll<br> €20,50</h1>
             </article>
         </section>
@@ -154,19 +154,19 @@
         <section id="bijgerechten">
         <h1 class="gerecht_titel">Bijgerechten</h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Witte rijst">
+                <img src="plaatjes/rice.webp" alt="Witte rijst">
                 <h1 class="gerecht_naam">Witte Rijst<br>€2,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Gember">
+                <img src="plaatjes/gember.jpg" alt="Gember">
                 <h1 class="gerecht_naam">Gember<br>€1,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Extra Wasabi">
+                <img src="plaatjes/wasabi.jpg" alt="Extra Wasabi">
                 <h1 class="gerecht_naam">Extra Wasabi<br>€1,00</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Spicy mayonaise">
+                <img src="plaatjes/spicymayo.jpg" alt="Spicy mayonaise">
                 <h1 class="gerecht_naam">Spicy Mayonaise<br>€1,00</h1>
             </article>
         </section>
@@ -174,23 +174,23 @@
         <section id="dranken" >
         <h1 class="gerecht_titel">Dranken</h1>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Groene Thee">
+                <img src="plaatjes/groenethee.png" alt="Groene Thee">
                 <h1 class="gerecht_naam">Groene Thee<br>€2,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Japans bier">
+                <img src="plaatjes/japansbier.jpeg" alt="Japans bier">
                 <h1 class="gerecht_naam">Japanse Bier<br>€4,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="sake">
+                <img src="plaatjes/sake.jpeg" alt="sake">
                 <h1 class="gerecht_naam">Sake (warm/koud)<br>€6,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Frisdrank">
+                <img src="plaatjes/frisdrank.jpg" alt="Frisdrank">
                 <h1 class="gerecht_naam">frisdrank<br>€2,50</h1>
             </article>
             <article class="gerecht">
-                <img src="plaatjes/sushi4.jpg" alt="Mineraal Water">
+                <img src="plaatjes/chaudfontaine.png" alt="Mineraal Water">
                 <h1 class="gerecht_naam">Mineraal Water<br>€2,50</h1>
             </article>
         </section>
