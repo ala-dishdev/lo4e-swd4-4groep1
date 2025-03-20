@@ -18,7 +18,7 @@
         <?php include('header.php');?>
     </header>
 
-    <main>
+    <main class="index_main">
         <section>
             <article class="banner">
                 <img src="plaatjes/sushi4.jpg" alt="sushi banner">

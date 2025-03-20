@@ -15,7 +15,7 @@
         display: flex;
         flex-direction: column; 
         align-items: center; 
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .intro {
@@ -30,9 +30,6 @@
     }
 
     .home_tekst{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         border: 2px solid #f1921D;
         background-color: #f1921D;
         border-radius: 20px;
@@ -40,7 +37,8 @@
         display: flex;
         flex-direction: column; 
         align-items: center; 
-        margin-bottom: 0px;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
     .home_paragraaf{
@@ -53,6 +51,10 @@
         height: 12rem;
         width: 24rem;
         border-radius: 20px;
+    }
+
+    .index_main{
+        display: grid;
     }
 
     .scrollbar {
@@ -216,7 +218,7 @@
         border: 2px solid #f1921D;
         background-color: #f1921D;
         border-radius: 20px;
-        width: 94rem;
+        width: 100%;
         display: flex;
         flex-direction: row; 
         align-items: center; 
@@ -238,6 +240,17 @@
         background-color: #f1921D;
         font-size: large;
     }
+
+    .home_tekst{
+        border: 2px solid #f1921D;
+        background-color: #f1921D;
+        border-radius: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        margin-bottom: 20px;
+    } 
 
     .home_tekst > img{
         height: 16rem;
@@ -324,10 +337,10 @@
         height: 25rem;
     }
 
-    section {
+    /* section {
         max-width: 600px;
         margin: auto;
-    }
+    } */
 
     ul {
         list-style: none;
@@ -400,7 +413,7 @@
         border: 2px solid #f1921D;
         background-color: #f1921D;
         border-radius: 20px;
-        width: 94rem;
+        width: 100%;
         display: flex;
         flex-direction: row; 
         align-items: center; 
@@ -419,17 +432,18 @@
         width: 60rem;
         border-radius: 20px;
         justify-content: flex-start;
+        object-fit: cover;
     }
 
     .home_tekst{
         border: 2px solid #f1921D;
         background-color: #f1921D;
         border-radius: 20px;
-        width: 94rem;
+        width: 100%;
         display: flex;
         flex-direction: row; 
         align-items: center; 
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .home_paragraaf{
@@ -442,6 +456,7 @@
         height: 16rem;
         width: 60rem;
         border-radius: 20px;
+        object-fit: cover;
     }
 
     .topic {
@@ -472,19 +487,20 @@
         border: 2px solid #f1921D;
         border-radius: 20px;
         background-color: #f1921D;
-        width: 30%;
+        width: 50vw;
     }
 
     .gerecht > img {
         height: 13rem;
         border-radius: 20px;
+        object-fit: cover;
     }
 
     .gerecht_titel {
         color: white;
         display: flex;
         justify-content: flex-start;
-        padding-left: 3rem;
+        padding-left: 1rem;
     }
 
     .gerecht_naam{
@@ -528,10 +544,10 @@
         height: 20rem;
     }
 
-    section {
+    /* section {
         max-width: 600px;
         margin: auto;
-    }
+    } */
 
     ul {
         list-style: none;
