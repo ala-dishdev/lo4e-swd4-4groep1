@@ -7,7 +7,7 @@
     
     <meta name="description" content="Umami Sushi, sushi restaurant">
     <meta name="keywords" content="Umami Sushi, Umami, sushi, restaurant">
-    <meta name="author" content="Angela Bansie, Spuranthi Srirangam">
+    <meta name="author" content="Angela Bansie">
 
     <title>Home pagina - Umami Sushi</title>
     <link rel="icon" href="#" type="image/x-icon">
