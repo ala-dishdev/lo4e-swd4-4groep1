@@ -988,13 +988,36 @@ article header {
 
 
 header .logo_header {
-    height: 120px;
-    margin-top: 10px;
-    margin-left: -83rem;
+    max-height: 120px;  
+    width: auto;       
+    margin-top: 10px;   
+    margin-left: -86vw; 
     object-fit: contain;
-    background-color: transparent; 
-
+    background-color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+    header .logo_header {
+        max-height: 100px; 
+        margin-left: -75vw; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .logo_header {
+        max-height: 80px;   
+        margin-left: -80vw; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .logo_header {
+        max-height: 60px;  
+        margin-left: -65vw;   
+    }
+}
+
+
 
 
 
