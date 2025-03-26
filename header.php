@@ -11,7 +11,7 @@
 
     <title>Home pagina - Umami Sushi</title>
     <link rel="icon" href="#" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheet\test1.css">
+    <link rel="stylesheet" href="stylesheet\umamisushi.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
