@@ -29,11 +29,11 @@
     <article id="menu" class="menu">
         <button id="closeMenu" class="close-btn">&times;</button>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Lunch & diner</a></li>
-            <li><a href="#">Locatie</a></li>
-            <li><a href="#">Reserveren</a></li>
-            <li><a href="#">Vacatures</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="lunch_diner.php">Lunch & diner</a></li>
+            <li><a href="openingstijden.php">Locatie & Openingstijden</a></li>
+            <li><a href="reserveren.php">Reserveren</a></li>
+            <li><a href="vacatures.php">Vacatures</a></li>
         </ul>
         <img src="plaatjes/logo_umami_sushi_1.png" alt="Logo" class="logo">
     </article>

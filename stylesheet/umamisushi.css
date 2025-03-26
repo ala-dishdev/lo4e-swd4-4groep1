@@ -895,12 +895,6 @@ header .logo_header {
 
 /* menu */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
 .menu {
     position: fixed;
@@ -914,6 +908,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    z-index: 1; 
+    position: absolute; 
 }
 
 .menu ul {
@@ -942,9 +938,14 @@ body {
     font-family: 'Staatliches', sans-serif;
 }
 
-.menu ul li:hover {
-    background-color: #252525;
+.menu ul li a:hover{
+    background: none;
+    border: none;
+    color: #F8733E;
+    cursor: pointer;
 }
+
+
 
 .menu.open {
     right: 0;
@@ -954,6 +955,8 @@ body {
     position: absolute;
     top: 10px;
     right: 15px;
+    display: flex;
+    justify-content: end;
     font-size: 24px;
     background: none;
     border: none;
