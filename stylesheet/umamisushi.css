@@ -41,6 +41,7 @@
         align-items: center; 
         justify-content: center;
         margin-bottom: 20px;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .home_paragraaf{
@@ -57,6 +58,7 @@
 
     .index_main{
         display: grid;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .scrollbar {
@@ -80,6 +82,7 @@
     .Lunchdiner_main{
         display: flex;
         flex-direction: column;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .gerecht {
@@ -142,6 +145,10 @@
     .maps{
         width: 20rem;
         height: 15rem;
+    }
+
+    .openingstijden_main{
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     section {
@@ -277,6 +284,10 @@
         font-weight: bold;
     }
 
+    .Lunchdiner_main{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
     .gerecht {
         display: flex;
         flex-direction: column;
@@ -290,6 +301,7 @@
         height: 10rem;
         width: 100%;
         border-radius: 20px;
+        object-fit: cover;
     }
 
     .gerecht_titel {
@@ -315,6 +327,10 @@
         margin-top: -15px;
     }
 
+    .index_main{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
     .openingstijden_map {
         display: flex;
         justify-content: center; 
@@ -337,6 +353,10 @@
     .maps{
         width: 40rem;
         height: 25rem;
+    }
+
+    .openingstijden_main{
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     /* section {
@@ -446,12 +466,14 @@
         flex-direction: row; 
         align-items: center; 
         margin-bottom: 20px;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .home_paragraaf{
         color: black;
         background-color: #f1921D;
         font-size: large;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .home_tekst > img{
@@ -459,6 +481,10 @@
         width: 60rem;
         border-radius: 20px;
         object-fit: cover;
+    }
+
+    .index_main{
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .topic {
@@ -481,6 +507,10 @@
         color: black;
         background-color: #F8733D;
         font-weight: bold;
+    }
+
+    .Lunchdiner_main{
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     .gerecht {
@@ -510,12 +540,6 @@
         color: black
     }
 
-    /* #voorgerechten{
-        display: grid;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr)); 
-        padding: 20px;
-    } */
 
     .footer{
         height: 10vh;
@@ -544,6 +568,10 @@
     .maps{
         width: 60rem;
         height: 20rem;
+    }
+
+    .openingstijden_main{
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     /* section {
@@ -837,12 +865,6 @@ button:hover {
 
 /* menu */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
 .menu {
     position: fixed;
@@ -856,6 +878,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    z-index: 1; 
+    position: absolute; 
 }
 
 .menu ul {
@@ -884,9 +908,14 @@ body {
     font-family: 'Staatliches', sans-serif;
 }
 
-.menu ul li:hover {
-    background-color: #252525;
+.menu ul li a:hover{
+    background: none;
+    border: none;
+    color: #F8733E;
+    cursor: pointer;
 }
+
+
 
 .menu.open {
     right: 0;
@@ -896,6 +925,8 @@ body {
     position: absolute;
     top: 10px;
     right: 15px;
+    display: flex;
+    justify-content: end;
     font-size: 24px;
     background: none;
     border: none;
