@@ -11,23 +11,42 @@
 
     <title>Home pagina - Umami Sushi</title>
     <link rel="icon" href="#" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheet/umamisushi.css"> 
-</head>
+    <link rel="stylesheet" href="stylesheet\test1.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap" rel="stylesheet">
+</head>
 <body>
+
     <article>
         <header>
-            <img class="logo" src="plaatjes\logo_umami_sushi_1.png" alt="Umami Sushi Logo"> 
-            <nav>
-                <input type="checkbox" id="sidebar-active">
-                <label for="sidebar-active">
-                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#F8733D"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-                </label>
-                <article class="links-container">
-                    
-                </article>
-            </nav>
+            <img class="logo_header" src="plaatjes/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+            <button id="openMenu"> ☰ </button>
         </header>
     </article>
+
+    <article id="menu" class="menu">
+        <button id="closeMenu" class="close-btn">&times;</button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Lunch & diner</a></li>
+            <li><a href="#">Locatie</a></li>
+            <li><a href="#">Reserveren</a></li>
+            <li><a href="#">Vacatures</a></li>
+        </ul>
+        <img src="plaatjes/logo_umami_sushi_1.png" alt="Logo" class="logo">
+    </article>
+
+    <script>
+        document.getElementById("openMenu").addEventListener("click", function () {
+            document.getElementById("menu").classList.add("open");
+        });
+
+        document.getElementById("closeMenu").addEventListener("click", function () {
+            document.getElementById("menu").classList.remove("open");
+        });
+    </script>
+
 </body>
 </html>
