@@ -989,8 +989,8 @@ article header {
 
 header .logo_header {
     height: 120px;
-    margin-top: 27px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: -83rem;
     object-fit: contain;
     background-color: transparent; 
 
