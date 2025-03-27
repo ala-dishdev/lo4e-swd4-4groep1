@@ -1,8 +1,6 @@
 
-
-    
     <header>
-        <img class="logo_header" src="plaatjes/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+    <a href="index.php"><img class="logo_header" src="plaatjes/logo_umami_sushi_1.png" alt="Umami Sushi Logo"></a>
         <button id="openMenu"> ☰ </button>
     </header>
     

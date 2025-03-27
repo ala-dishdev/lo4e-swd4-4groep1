@@ -35,21 +35,21 @@
         <ul>
             <li>
                 <figure class="figure_1">
-                    <img src="klok.png" alt="Klok icoon">
+                    <img src="plaatjes/klok.png" alt="Klok icoon">
                 </figure>
-                <p class="yellow">Lorem ipsum dolor sit amet</p>
+                <p class="yellow">maandag t/m woensdag: 7:00-21:00</p>
             </li>
             <li>
                 <figure class="figure_2">
-                    <img src="#" alt="Klok icoon">
+                    <img src="plaatjes/klok.png" alt="Klok icoon">
                 </figure>
-                <p class="orange">Lorem ipsum dolor sit amet</p>
+                <p class="orange">donderdag t/m vrijdag: 7:00-22:00</p>
             </li>
             <li>
                 <figure class="figure_3" >
-                    <img src="#" alt="Klok icoon">
+                    <img src="plaatjes/klok.png" alt="Klok icoon">
                 </figure>
-                <p class="red">Lorem ipsum dolor sit amet</p>
+                <p class="red">zaterdag & zondag: 9:00-23:30</p>
             </li>
         </ul>
     </section>
