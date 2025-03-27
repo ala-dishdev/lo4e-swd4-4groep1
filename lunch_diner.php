@@ -51,7 +51,6 @@
             <article class="gerecht">
                 <img src="plaatjes/wakamesalade.jpg" alt="Wakame salade">
                 <h1 class="gerecht_naam">Wakame Salade<br>Zeewier salade met sesam dressing<br> €6,50</h1>
-                <p>
             </article>
         </section>
 
