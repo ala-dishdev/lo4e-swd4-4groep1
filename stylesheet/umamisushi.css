@@ -200,10 +200,20 @@
         justify-content: center;
         margin: 0;
     }
+    
+    .figure_1 > img {
+        width: 70%;
+        background-color: #F1921E;
+    }
 
-    figure img {
-        width: 60%;
+    .figure_2 > img {
+        width: 70%;
         background-color: #F8733D;
+    }
+
+    .figure_3 > img {
+        width: 70%;
+        background-color: #fc634d;
     }
 
     p {
@@ -409,9 +419,19 @@
         margin: 0;
     }
 
-    figure img {
-        width: 60%;
+    .figure_1 > img {
+        width: 70%;
+        background-color: #F1921E;
+    }
+
+    .figure_2 > img {
+        width: 70%;
         background-color: #F8733D;
+    }
+
+    .figure_3 > img {
+        width: 70%;
+        background-color: #fc634d;
     }
 
     p {
@@ -624,9 +644,19 @@
         margin: 0;
     }
 
-    figure > img {
-        width: 60%;
+    .figure_1 > img {
+        width: 70%;
+        background-color: #F1921E;
+    }
+
+    .figure_2 > img {
+        width: 70%;
         background-color: #F8733D;
+    }
+
+    .figure_3 > img {
+        width: 70%;
+        background-color: #fc634d;
     }
 
     p {
