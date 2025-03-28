@@ -21,7 +21,7 @@
     
         <?php include('header.php');?>
     
-
+    
     <main class="index_main">
         <section>
             <article class="banner">
