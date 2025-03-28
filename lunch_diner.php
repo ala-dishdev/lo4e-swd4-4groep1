@@ -37,9 +37,8 @@
             <a href="#dranken">Dranken</a>
         </nav>
         
-
-        <section id="voorgerechten">
         <h1 class="gerecht_titel">Voorgerechten</h1>
+        <section id="voorgerechten">
             <article class="gerecht">
                     <img src="plaatjes/misosoep.jpg" alt="Miso soep">
                     <h1 class="gerecht_naam">Miso Soep<br>Tradionele Japanse soep met tofu, zeewier en lente-ui<br>€4,50 </h1>
@@ -54,8 +53,8 @@
             </article>
         </section>
 
-        <section id="nigirisushi">
         <h1 class="gerecht_titel">Nigiri Sushi (2 stuks)</h1>
+        <section id="nigirisushi">
             <article class="gerecht">
                 <img src="plaatjes/nigirizalm.jpg" alt="sake">
                 <h1 class="gerecht_naam">Sake (Zalm)<br> €4,50  </h1>
@@ -78,8 +77,8 @@
             </article>
         </section>
 
-        <section id="makirolls">
         <h1 class="gerecht_titel">Maki Rolls (6 stuks) </h1>
+        <section id="makirolls">
             <article class="gerecht">
                 <img src="plaatjes/makicalifornia.jpg" alt="california rolls">
                 <h1 class="gerecht_naam">California Roll<br>Krabs ck, avocado, komkommer en masago <br> €8,50 </h1>
@@ -98,8 +97,8 @@
             </article>
         </section>
 
-        <section id="specialrolls" >
         <h1 class="gerecht_titel">Special Rolls (8 stuks) </h1>
+        <section id="specialrolls" >
             <article class="gerecht">
                 <img src="plaatjes/specialdragonroll.webp" alt="Dragon Roll">
                 <h1 class="gerecht_naam">Dragon Roll<br>Tempura garnaal, avocado, komkommer, unagi en unagi saus<br>€15,50 </h1>
@@ -118,8 +117,8 @@
             </article>
         </section>
 
-        <section id="sashimi" >
         <h1 class="gerecht_titel">Sashimi (5 stuks)</h1>
+        <section id="sashimi" >
             <article class="gerecht">
                 <img src="plaatjes/zalmsashimi.jpg" alt="Sake (Zalm)">
                 <h1 class="gerecht_naam">Sake (Zalm)<br>€9,50</h1>
@@ -134,8 +133,8 @@
             </article>
         </section>
 
+        <h1 class="gerecht_titel">Combinatie Menu's</h1>        
         <section id="combinatiemenus">
-        <h1 class="gerecht_titel">Combinatie Menu's</h1>
             <article class="gerecht">
                 <img src="plaatjes/sushisetA.jpg" alt="Sushi Set A">
                 <h1 class="gerecht_naam">Sushi Set A<br>4 nigiri, 6 maki, miso soep<br>€22,50</h1>
@@ -154,8 +153,8 @@
             </article>
         </section>
 
-        <section id="bijgerechten">
         <h1 class="gerecht_titel">Bijgerechten</h1>
+        <section id="bijgerechten">
             <article class="gerecht">
                 <img src="plaatjes/rice.webp" alt="Witte rijst">
                 <h1 class="gerecht_naam">Witte Rijst<br>€2,50</h1>
@@ -174,8 +173,8 @@
             </article>
         </section>
 
-        <section id="dranken" >
         <h1 class="gerecht_titel">Dranken</h1>
+        <section id="dranken" >
             <article class="gerecht">
                 <img src="plaatjes/groenethee.png" alt="Groene Thee">
                 <h1 class="gerecht_naam">Groene Thee<br>€2,50</h1>

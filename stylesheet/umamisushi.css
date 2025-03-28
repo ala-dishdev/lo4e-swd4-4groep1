@@ -539,7 +539,7 @@
         border: 2px solid #f1921D;
         border-radius: 20px;
         background-color: #f1921D;
-        width: 50vw;
+        width: 40vw;
     }
 
     .gerecht > img {
@@ -560,6 +560,61 @@
         color: black
     }
 
+    #voorgerechten{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #nigirisushi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #makirolls{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #specialrolls{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #sashimi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #combinatiemenus{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #bijgerechten{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
+
+    #dranken{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        place-items: center; 
+    }
 
     .footer{
         height: 10vh;
@@ -594,10 +649,6 @@
         font-family: 'Lexend Deca', sans-serif;
     }
 
-    /* section {
-        max-width: 600px;
-        margin: auto;
-    } */
 
     ul {
         list-style: none;
