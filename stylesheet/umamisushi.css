@@ -147,10 +147,10 @@
         font-family: 'Staatliches', sans-serif;
         transition: background 0.5s, transform 0.1s;
     }
-    
+
     #lightModeButton:hover{
-    background-color: #a04000;
-    transform: scale(1.02);
+        background-color: #a04000;
+        transform: scale(1.02);
     }
 
     .gerecht {
@@ -190,6 +190,30 @@
         color: #f4f4f4;
         margin-top: -15px;
     }
+
+        /* tekst vergroten functie */
+    
+        .fixed-button {
+            position: fixed;
+            top: 90%; 
+            right: 19px; 
+            background-color: #e55d02; 
+            color: #000000; 
+            border: none;
+            padding: 10px 30px; 
+            font-size: 25px; 
+            cursor: pointer;
+            border-radius: 8px;
+            border: 2px #000000;
+        }
+        
+        .fixed-button:hover {
+            background-color: #a54200; 
+        }
+    
+        .vergroten {
+            font-weight: bold; 
+        }
 
     /* openingstijden */
 
@@ -430,9 +454,34 @@
         font-family: 'Staatliches', sans-serif;
         transition: background 0.5s, transform 0.1s;
     }
+
     #lightModeButton:hover{
     background-color: #a04000;
     transform: scale(1.02);
+    }
+
+    /* tekst vergroten functie */
+
+    .fixed-button {
+        position: fixed;
+        top: 90%; 
+        right: 19px; 
+        background-color: #e55d02; 
+        color: #000000; 
+        border: none;
+        padding: 10px 30px; 
+        font-size: 25px; 
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px #000000;
+    }
+    
+    .fixed-button:hover {
+        background-color: #a54200; 
+    }
+
+    .vergroten {
+        font-weight: bold; 
     }
 
     .gerecht {
@@ -681,6 +730,7 @@
         font-family: 'Staatliches', sans-serif;
         transition: background 0.5s, transform 0.1s;
     }
+
     #lightModeButton:hover{
     background-color: #a04000;
     transform: scale(1.02);
@@ -833,13 +883,13 @@
         border: 2px #000000;
     }
     
-.fixed-button:hover {
-    background-color: #a54200; 
-}
+    .fixed-button:hover {
+        background-color: #a54200; 
+    }
 
-.vergroten {
-    font-weight: bold; 
-}
+    .vergroten {
+        font-weight: bold; 
+    }
 
     /* openingstijden pagina */
 
