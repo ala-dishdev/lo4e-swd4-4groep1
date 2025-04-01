@@ -135,6 +135,23 @@
         margin-top: -15px;
     }
 
+    #lightModeButton{
+        width: 100%;
+        padding: 12px;
+        background-color: #d35400;
+        color: black;
+        font-size: 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: 'Staatliches', sans-serif;
+        transition: background 0.5s, transform 0.1s;
+    }
+    
+    #lightModeButton:hover{
+    background-color: #a04000;
+    transform: scale(1.02);
+    }
 
     .gerecht {
         display: flex;
@@ -401,6 +418,23 @@
         margin-top: -15px;
     }
 
+    #lightModeButton{
+        width: 100%;
+        padding: 12px;
+        background-color: #d35400;
+        color: black;
+        font-size: 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: 'Staatliches', sans-serif;
+        transition: background 0.5s, transform 0.1s;
+    }
+    #lightModeButton:hover{
+    background-color: #a04000;
+    transform: scale(1.02);
+    }
+
     .gerecht {
         display: flex;
         flex-direction: column;
@@ -635,6 +669,23 @@
         color: white;
     }
 
+    #lightModeButton{
+        width: 100%;
+        padding: 12px;
+        background-color: #d35400;
+        color: black;
+        font-size: 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: 'Staatliches', sans-serif;
+        transition: background 0.5s, transform 0.1s;
+    }
+    #lightModeButton:hover{
+    background-color: #a04000;
+    transform: scale(1.02);
+    }
+
     .light_mode {
         background-color: white !important;
         color: black !important;
@@ -778,7 +829,8 @@
         padding: 10px 30px; 
         font-size: 25px; 
         cursor: pointer;
-        border-radius: 8px; 
+        border-radius: 8px;
+        border: 2px #000000;
     }
     
 .fixed-button:hover {
