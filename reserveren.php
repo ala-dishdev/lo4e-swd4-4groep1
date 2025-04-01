@@ -85,7 +85,7 @@
                 </article>
 
                 <article>
-                    <button type="submit">Versturen</button>
+                    <button type="submit" class="reserveren-button">Versturen</button>
                 </article>
             </article>
         </form>

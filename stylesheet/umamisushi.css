@@ -766,6 +766,29 @@
         background-color: #F8733D;
     }
 
+    /* tekst vergroten functie */
+    
+    .fixed-button {
+        position: fixed;
+        top: 90%; 
+        right: 19px; 
+        background-color: #e55d02; 
+        color: #000000; 
+        border: none;
+        padding: 10px 30px; 
+        font-size: 25px; 
+        cursor: pointer;
+        border-radius: 8px; 
+    }
+    
+.fixed-button:hover {
+    background-color: #a54200; 
+}
+
+.vergroten {
+    font-weight: bold; 
+}
+
     /* openingstijden pagina */
 
     .openingstijden_map {
@@ -946,7 +969,7 @@ select:focus {
     color: #000000;
 }
 
-button {
+.reserveren-button {
     width: 100%;
     padding: 12px;
     background-color: #d35400;
@@ -959,7 +982,7 @@ button {
     transition: background 0.3s, transform 0.1s;
 }
 
-button:hover {
+.reserveren-button:hover {
     background-color: #a04000;
     transform: scale(1.02);
 }
@@ -974,10 +997,11 @@ button:hover {
         font-size: 20px;
     }
 
-    button {
+    .reserveren-button {
         font-size: 16px;
     }
 }
+
 
 
 
