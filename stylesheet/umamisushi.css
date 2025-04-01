@@ -61,6 +61,8 @@
         font-family: 'Lexend Deca', sans-serif;
     }
 
+    /* Lunch en diner */
+
     .scrollbar {
         position: sticky;
         top: 0;
@@ -122,6 +124,8 @@
         color: #f4f4f4;
         margin-top: -15px;
     }
+
+    /* openingstijden */
 
     .openingstijden_map {
         display: flex;
@@ -233,6 +237,8 @@
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 /* voor tablet */
+
+    /* home pagina */
     .banner {
         border: 2px solid #f1921D;
         background-color: #f1921D;
@@ -276,7 +282,7 @@
         width: 60rem;
         border-radius: 20px;
     }
-
+    /* lunch pagina */
     .scrollbar {
         position: sticky;
         top: 0;
@@ -340,7 +346,7 @@
     .index_main{
         font-family: 'Lexend Deca', sans-serif;
     }
-
+    /* openingstijden */
     .openingstijden_map {
         display: flex;
         justify-content: center; 
@@ -369,10 +375,6 @@
         font-family: 'Lexend Deca', sans-serif;
     }
 
-    /* section {
-        max-width: 600px;
-        margin: auto;
-    } */
 
     ul {
         list-style: none;
@@ -451,6 +453,7 @@
 
 @media screen and (min-width: 1280px) {
 /* voor computer of iets groter */
+/* home pagina */
     .banner {
         border: 2px solid #f1921D;
         background-color: #f1921D;
@@ -511,7 +514,7 @@
         color: #f4f4f4;
         margin-top: -15px;
     }
-
+/* lunch pagina */
     .scrollbar {
         position: sticky;
         top: 0;
@@ -531,6 +534,13 @@
 
     .Lunchdiner_main{
         font-family: 'Lexend Deca', sans-serif;
+        background-color: #000000;
+        color: #000000;
+    }
+
+    .light_mode{
+        background-color: white;
+        color: black;
     }
 
     .gerecht {
@@ -620,6 +630,8 @@
         height: 10vh;
         background-color: #F8733D;
     }
+
+    /* openingstijden pagina */
 
     .openingstijden_map {
         display: flex;
