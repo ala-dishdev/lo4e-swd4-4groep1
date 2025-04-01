@@ -81,11 +81,60 @@
         font-weight: bold;
     }
 
-    .Lunchdiner_main{
+    #Lunchdiner_main{
         display: flex;
         flex-direction: column;
         font-family: 'Lexend Deca', sans-serif;
     }
+
+    .light_mode {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht {
+        background-color: #f1921D !important;
+        border-color: black !important;
+    }
+    
+    .light_mode .gerecht_naam {
+        background-color: #f1921D !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht_naam > a:hover {
+        font-size: large;
+    }
+    
+    .light_mode * {
+        background-color: white !important; 
+        color: #000000;
+    }
+
+    .light_mode .gerecht_titel {
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+    
+    .light_mode .footer {
+        background-color: #FFA07A !important;
+    }
+
+    .light_mode .scrollbar {
+        background-color: #FFA07A !important; 
+    }
+
+    .light_mode .scrollbar > a {
+        background-color: #FFA07A !important; 
+    }
+
+    .light_mode .topic {
+        color: black;
+        margin-top: -15px;
+    }
+
 
     .gerecht {
         display: flex;
@@ -300,8 +349,56 @@
         font-weight: bold;
     }
 
-    .Lunchdiner_main{
+    #Lunchdiner_main{
         font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .light_mode {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht {
+        background-color: #f1921D !important;
+        border-color: black !important;
+    }
+    
+    .light_mode .gerecht_naam {
+        background-color: #f1921D !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht_naam > a:hover {
+        font-size: large;
+    }
+    
+    .light_mode * {
+        background-color: white !important; 
+        color: #000000;
+    }
+
+    .light_mode .gerecht_titel {
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+    
+    .light_mode .footer {
+        background-color: #FFA07A !important;
+    }
+
+    .light_mode .scrollbar {
+        background-color: #FFA07A !important;
+    }
+
+    .light_mode .scrollbar > a {
+        background-color: #FFA07A !important; 
+    }
+
+    .light_mode .topic {
+        color: black !important;
+        margin-top: -15px;
     }
 
     .gerecht {
@@ -532,15 +629,53 @@
         font-weight: bold;
     }
 
-    .Lunchdiner_main{
+    #Lunchdiner_main{
         font-family: 'Lexend Deca', sans-serif;
         background-color: #000000;
+        color: white;
+    }
+
+    .light_mode {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht {
+        background-color: #f1921D !important;
+        border-color: black !important;
+    }
+    
+    .light_mode .gerecht_naam {
+        background-color: #f1921D !important;
+        color: black !important;
+    }
+
+    .light_mode .gerecht_naam > a:hover {
+        font-size: large;
+    }
+    
+    .light_mode * {
+        background-color: white !important; 
         color: #000000;
     }
 
-    .light_mode{
-        background-color: white;
+    .light_mode .gerecht_titel {
         color: black;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+    
+    .light_mode .footer {
+        background-color: #FFA07A !important;
+    }
+
+    .light_mode .scrollbar {
+        background-color: #FFA07A !important; 
+    }
+
+    .light_mode .scrollbar > a {
+        background-color: #FFA07A !important; 
     }
 
     .gerecht {
