@@ -40,7 +40,7 @@
         </nav>
         
         <button onclick="myFunction()">Toggle dark mode</button>
-        <button onclick="vergroetText()">Verhoog Lettergrootte</button>
+        <button onclick="vergrootText()">Vergroot lettertype</button> button
         
         <h1 class="gerecht_titel">Voorgerechten</h1>
         <section id="voorgerechten">

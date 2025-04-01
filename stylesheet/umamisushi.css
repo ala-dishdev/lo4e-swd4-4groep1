@@ -633,20 +633,6 @@
 
     /* tekst vergroten functie */
 
-    button {
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #F8733D;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    
-    button:hover {
-        background-color: #e0622f;
-    }
-    
 
     /* openingstijden pagina */
 
