@@ -8,7 +8,6 @@ function vergrootText() {
 
         let nieuweGrootte = huidigeGrootteNum + 2;
 
-        // Pas de nieuwe font-grootte toe
         element.style.fontSize = nieuweGrootte + 'px';
     });
 }
