@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
             mainElement.classList.toggle("light_mode"); 
         });
     } else {
-        console.error("Knop of hoofdsectie niet gevonden!");
+        console.error("Knop of hoofdsectie niet gevonden!");    
     }
 });
